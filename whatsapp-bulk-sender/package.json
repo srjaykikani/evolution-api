@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-bulk-sender",
+  "version": "1.0.0",
+  "description": "WhatsApp bulk message sender using Evolution API - Manage 15 WhatsApp accounts for bulk messaging",
+  "main": "index.js",
+  "scripts": {
+    "create-instances": "node scripts/create-instances.js",
+    "connect": "node scripts/connect-accounts.js",
+    "status": "node scripts/check-status.js",
+    "status:watch": "node scripts/check-status.js watch",
+    "send": "node scripts/send-messages.js",
+    "test": "node scripts/send-messages.js test"
+  },
+  "keywords": [
+    "whatsapp",
+    "bulk",
+    "messaging",
+    "evolution-api",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

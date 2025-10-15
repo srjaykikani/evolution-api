@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+logs/*.log
+*.log
+
+# CSV files (user data - keep templates)
+data/*/contacts.csv
+!data/*/contacts_template.csv
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config backup
+config/instances.json.backup
+config/*.backup
+
+# Python virtual environment (if any)
+venv/
+__pycache__/
+*.pyc
